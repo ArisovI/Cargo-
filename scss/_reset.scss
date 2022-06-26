@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 350px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 798px) {
+    .container {
+        max-width: 798px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}

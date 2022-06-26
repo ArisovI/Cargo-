@@ -1,0 +1,40 @@
+    .main {
+        .header {
+            .container {
+                .header-logo {
+                    margin: 25px 0;
+
+                    .desktop {
+                        display: block;
+                    }
+
+                    .mobile {
+                        display: none;
+                    }
+                }
+
+                .header-menu {
+                    margin: 0;
+                    .header-hamburger{
+                        &__items{
+                            margin: 0 20px;
+                            a{
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                        &__btn{
+                            margin: 25px 0 25px 95px;
+                            .btn{
+                                width: 171px;   
+                                height: 50px;
+                                font-size: 15;
+                                line-height: 21px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
